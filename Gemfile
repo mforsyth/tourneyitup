@@ -34,6 +34,7 @@ end
 
 group :test do
   gem 'cucumber-rails', :require => false
+  gem 'cucumber-salad', git: 'git@github.com:mojotech/cucumber-salad.git'
   gem 'database_cleaner'
 end
 
