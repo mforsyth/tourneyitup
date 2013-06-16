@@ -36,6 +36,7 @@ group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-salad', git: 'git@github.com:mojotech/cucumber-salad.git'
   gem 'database_cleaner'
+  gem 'factory_girl'
 end
 
 # Use ActiveModel has_secure_password
