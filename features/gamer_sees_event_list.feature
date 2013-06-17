@@ -7,11 +7,10 @@ Feature: Event list
     Given the following tournaments:
     | Game                 | Occurs            | Address                            |
     | Warhammer Fantasy    | Yesterday         | 60 Sowams Rd, Barrington, RI       |
-    | Warhammer 40k        | Tomorrow          | 4 Main St, Warren, RI              |
     | Magic: the Gathering | A week from today | 164 Rochambeau Ave, Providence, RI |
+    | Warhammer 40k        | Tomorrow          | 4 Main St, Warren, RI              |
 
     When I look at the upcoming event list
     Then I should see the following events
-    | Game                 | Occurs            | Address                            |
     | Warhammer 40k        | Tomorrow          | 4 Main St, Warren, RI              |
     | Magic: the Gathering | A week from today | 164 Rochambeau Ave, Providence, RI |
