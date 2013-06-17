@@ -31,6 +31,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'pry'
+  gem 'pry-nav'
+end
+
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-salad', git: 'git@github.com:mojotech/cucumber-salad.git'
